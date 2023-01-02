@@ -1,0 +1,6 @@
+﻿CREATE TABLE Otomobiller(OtomobilID int IDENTITY PRIMARY KEY,
+                         Marka varchar(20),
+						 Model varchar(20),
+						 Resim varchar(20))
+INSERT INTO Otomobiller VALUES('Bugatti','Veyron','bugatti.jpg'),
+('Ford','Mustang','mustang.jpg'),('Porsche','GTO','gto.jpg')
